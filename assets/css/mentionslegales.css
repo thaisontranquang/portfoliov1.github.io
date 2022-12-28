@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+.ts_container {
+  width: 100%;
+  display: flex;
+  padding: 100px 0px 100px 0px;
+}
+.ts_container > span {
+  color: #ECA400;
+}
+.ts_container div {
+  height: 100%;
+}
+.ts_container > div:nth-child(1) {
+  font-family: "Roboto Mono", monospace;
+  color: #F9F9F9;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 9px;
+}
+.ts_container > div:nth-child(2) {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.ts_container > div:nth-child(2) > div {
+  -moz-column-count: 2;
+       column-count: 2;
+  -moz-column-gap: 200px;
+       column-gap: 200px;
+}
+.ts_container > div:nth-child(2) h1,
+.ts_container > div:nth-child(2) h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #F9F9F9;
+  display: block;
+  width: 100%;
+}
+.ts_container > div:nth-child(2) h1 {
+  margin-bottom: 50px;
+}
+.ts_container > div:nth-child(2) h2 {
+  font-size: 18px;
+  color: #ECA400;
+  font-family: "Roboto Mono", monospace;
+}
+.ts_container > div:nth-child(2) p {
+  margin-bottom: 30px;
+  margin-top: 0;
+  line-height: 150%;
+}
+.ts_container > div:nth-child(2) p a {
+  color: #ECA400;
+}
+.ts_container > div:nth-child(2) p a:hover {
+  text-decoration: underline;
+}
+.ts_container > div:nth-child(2) p.legal-info {
+  border: solid 2px #ECA400;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.ts_container .social-networks img {
+  width: 40px;
+  filter: invert(55%) sepia(89%) saturate(1443%) hue-rotate(11deg) brightness(105%) contrast(101%);
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 1300px) {
+  p.follow-up {
+    margin-left: 150px;
+  }
+  .ts_container {
+    padding: 100px 150px 0px 150px;
+  }
+}
+@media (max-width: 800px) {
+  p.follow-up {
+    margin-left: 20px;
+  }
+  .ts_container {
+    padding: 100px 20px 100px 20px;
+  }
+  .ts_container div:nth-child(2) {
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+}/*# sourceMappingURL=mentionslegales.css.map */
