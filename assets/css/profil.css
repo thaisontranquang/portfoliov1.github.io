@@ -12,6 +12,7 @@ p.follow-up button {
   font-weight: bold;
   color: #F9F9F9;
   transition: 0.5s;
+  font-size: 16px;
 }
 p.follow-up button:hover {
   background: #ECA400;
