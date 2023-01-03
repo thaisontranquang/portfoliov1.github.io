@@ -72,7 +72,7 @@ footer a, footer p {
 }
 footer a {
   display: inline-block;
-  margin: 5px;
+  padding: 10px;
 }
 footer a:hover {
   text-decoration: underline;
