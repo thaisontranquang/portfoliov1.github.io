@@ -34,11 +34,6 @@ $sfont: 'Roboto Mono', monospace;
         padding-left: 100px;
         padding-right: 100px;
 
-        >div{
-            column-count: 2;
-            column-gap: 200px;
-        }
-
         h1,
         h2 {
             font-family: $ffont;
